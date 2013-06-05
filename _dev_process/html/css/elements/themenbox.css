@@ -1,0 +1,76 @@
+/*** Themenbox ***/
+
+div.element.themenbox
+{
+    display: block;
+    margin: 0 0 35px 0;
+    position: relative;
+    width: 236px;
+}
+
+div.element.themenbox div.content
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.9;
+/*  z-index: 2;*/
+    min-height: 70px;
+}
+
+div.element.themenbox div.content.gruen
+{
+    background: #acc76b;
+}
+
+div.element.themenbox div.content.blau
+{
+    background: #7eb7e5;
+}
+
+div.element.themenbox div.content.gelb
+{
+    background: #f2b834;
+}
+
+div.element.themenbox div.content.rot
+{
+    background: #d66d62;
+}
+
+div.element.themenbox div.content h2.title
+{
+    color: #fff;
+    padding: 12px;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+div.element.themenbox div.content div.text
+{
+    color: #0d0d0c;
+    display: none;
+    float: left;
+    padding: 0 60px 12px 12px;
+}
+
+div.element.themenbox div.content div.image
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+div.element.themenbox a.overlay
+{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    visibility: visible;
+}

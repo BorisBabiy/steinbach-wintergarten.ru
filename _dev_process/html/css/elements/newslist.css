@@ -1,0 +1,102 @@
+/*******************  Newslist *****************************/
+
+div.element.newslist
+{
+    display: block;
+}
+
+div.element.newslist div.item
+{
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+div.element.newslist div.image
+{
+    float: left;
+    padding: 0 20px 0 0;
+}
+
+div.element.newslist div.content
+{
+    float: left;
+    width: 620px;
+    padding: 15px 0 0 0;
+}
+
+div.element.newslist div.item div.content span.header span.news-list-date
+{
+    color: #434343;
+/*  background: #2a2a28;*/
+    font-size: 1.2em;
+    padding: 0 8px;
+    border-left: 6px solid #E51837;
+    display: block;
+}
+
+div.element.newslist div.content h2.title
+{
+    margin: 5px 0 0 0;
+}
+
+div.element.newslist div.content h2.title a
+{
+    color: #898989;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: normal;
+}
+
+div.element.newslist div.content div.text
+{
+    margin: 0 0 5px 0;
+    line-height: 1.5em;
+}
+
+div.element.newslist div.content div.link a
+{
+    color: #E51837;
+}
+
+div.element.newslist div.item span.overlay
+{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: block;
+    background-color: #000;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    visibility: visible;
+}
+
+
+/*** Pageination ***/
+div.news-list-browse div.showResultsWrap
+{
+    display: none;
+}
+
+div.news-list-browse span,
+div.news-list-browse a
+{
+    text-decoration: none;
+    background: url("../../images/pageination-dot.jpg") no-repeat left top transparent;
+    color: #898989;
+    display: block;
+    float: left;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 5px 0 0;
+}
+
+div.news-list-browse span.activeLinkWrap,
+div.news-list-browse a:hover
+{
+    background: url("../../images/pageination-dot-active.jpg") no-repeat left top transparent;
+    color: #fff;
+}

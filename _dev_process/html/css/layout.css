@@ -1,0 +1,538 @@
+/*<![CDATA[*/
+/**
+ * Layout Style
+ *
+ * Copyright (c) 2010    die.interaktiven GmbH u. Co. KG
+ *                       www.die-interaktiven.de
+ *
+ * Alle Rechte vorbehalten. Unberechtigte Kopie und Weiter-
+ * verwendung nicht gestattet.
+ *
+ */
+
+ /*
+ *  $Revision: $
+ *  $Author: $
+ *  $LastChangedDate: $
+ *  $HeadURL: $
+ */
+ 
+ 
+
+/**
+ * HTML-Tags
+ */
+ 
+body
+{
+    font-family: Arial, Helvetica, Verdana, Geneva,  sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #898989;
+    background: #0d0d0c;
+}
+
+    
+/**
+ * allgemeine Seitenstruktur
+ */
+
+#page
+{
+    font-size: 0.9em;
+}
+
+div.wrapper
+{
+    margin: 0 auto;
+    width: 980px;
+    text-align: left;
+}
+
+#head,
+#body,
+#footer
+{
+    min-width: 980px !important;
+}
+
+#head
+{
+    padding: 0 0 40px 0;
+    border-bottom: 3px solid #3d3d39;
+}
+
+#systempartner
+{
+    float: right;
+    position: relative;
+    z-index: 999;
+}
+
+#systempartner a.partner-link
+{
+    background: url("../img/weltkarte.png") no-repeat 10px center #2a2a2a;
+    display: block;
+    height: 50px;
+    width: 150px;
+    line-height: 50px;
+    padding: 0 0 0 55px;
+    color: #959595;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+#systempartner a.partner-link:hover
+{
+    text-decoration: none;
+}
+
+#systempartner div.element.partner-layer
+{
+    display: none;
+    background: #2a2a2a;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 100%;
+}
+
+#systempartner div.element.partner-layer ul
+{
+    list-style: none;
+    padding: 0 20px 0 55px;
+    margin: 0;
+    float: left;
+    width: 130px;
+}
+
+#systempartner div.element.partner-layer ul li
+{
+    float: left;
+    clear: both;
+    padding: 8px 0;
+    width: 100%;
+    border-top: 1px solid #959595;
+}
+
+#systempartner div.element.partner-layer ul li:first-child
+{
+    border: none;
+}
+
+#systempartner div.element.partner-layer ul li a
+{
+    text-decoration: none;
+    color: #959595;
+}
+
+#systempartner div.element.partner-layer ul li a:hover
+{
+    text-decoration: underline;
+}
+
+#systempartner div.element.partner-layer ul li div.image
+{
+    float: left;
+    padding: 2px 5px 0 0;
+}
+
+#systempartner div.element.partner-layer ul li div.text
+{
+    float: left;
+}
+
+#wintergartenbuch
+{
+    float: right;
+    margin: 0 20px 0 0;
+}
+
+#wintergartenbuch a
+{
+    display: block;
+}
+
+
+
+
+#logo
+{
+    float: left;
+    padding: 39px 0 0 0;
+}
+
+#mainnav
+{
+    float: right; 
+    font-size: 1.2em;
+    margin: 13px 0 0 0;
+    clear: right;
+    width: 730px;
+}
+
+#mainnav ul
+{
+    margin: 0; 
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+
+#mainnav li
+{
+    float: left;
+    padding: 0 0 0 38px;
+}
+
+#mainnav li a
+{
+    color: #808083;
+    text-decoration: none;
+    padding: 0 0 40px 0;
+}
+
+#mainnav li a:hover,
+#mainnav li:hover a
+{
+    color: #dcdcdc;
+}
+
+#mainnav li.active a
+{
+    border-bottom: 3px solid #e51837;
+    color: #fff;
+}
+
+#mainnav ul li ul
+{
+    display: none;
+}
+
+
+/** Unternavigation **/
+
+#subnav
+{
+    background: #F2F2F2;
+}
+
+#subnav-active
+{
+    background: #3d3d39;
+}
+
+#subnav ul,
+#subnav-active ul
+{
+    margin: 0;
+    padding: 10px 0;
+    list-style: none;
+    display: none;
+    float: left;
+}
+
+#subnav-active ul
+{
+    display: block;
+}
+
+#subnav ul li,
+#subnav-active ul li
+{
+    float: left;
+    width: 245px;
+    line-height: 2.0em;
+}
+
+#subnav ul li a,
+#subnav-active ul li a
+{
+    color: #707070;
+    text-decoration: none;
+}
+
+#subnav-active ul li a,
+#subnav-active ul li
+{
+    color: #b8b8b8;
+}
+
+#subnav ul li:hover,
+#subnav ul li:hover a
+{
+    color: #E51837;
+}
+
+#subnav-active ul li.active,
+#subnav-active ul li.active a,
+#subnav-active ul li:hover,
+#subnav-active ul li:hover a
+{
+    color: #fff;
+}
+
+#subnav li.subnav-content
+{
+    clear: both;
+    margin: 10px 0;
+    width: 940px;
+    background: #fff;
+    padding: 20px;
+}
+
+#subnav li.subnav-content div.colgroup.fce50x50 div.col-left
+{
+    width: 470px;
+}
+
+#subnav li.subnav-content div.colgroup.fce50x50 div.col-right
+{
+    width: 438px;
+}
+
+#subnav ul div.element.paragraph div.link a
+{
+    line-height: 1.4em;
+    font-weight: normal;
+}
+
+#subnav ul div.element.paragraph div.link a:hover
+{
+    text-decoration: underline;
+}
+
+#mainnav div.colspan-subnav
+{
+    display: none;
+}
+
+
+
+
+
+#breadcrumb
+{
+    background: #1a1a18;
+    text-align: left;
+    padding: 12px 0;
+}
+
+#breadcrumb a
+{
+    color: #808083;
+    font-size: 0.9em;
+    text-decoration: none;
+/*  background: url("../images/breadcrumb-arrow.jpg") no-repeat left center #1a1a18;*/
+/*  padding: 0 0 0 28px;*/
+}
+
+#breadcrumb a:hover
+{
+    color: #dcdcdc;
+}
+
+#colspan-startslider
+{
+/*  margin: 0 auto;*/
+/*  max-width: 1680px;*/
+    position: relative;
+    z-index: 100;
+    margin: 0 auto 17px;
+}
+
+#elements
+{
+    padding: 0; 
+}
+
+#colspan-top
+{
+    background: #1a1a18;
+    padding: 20px 0;
+}
+
+#col-left
+{
+    float: left;
+    width: 60%;
+}
+
+#col-right
+{
+    float: right;
+    width: 30%;
+}
+
+#colspan-bottom
+{
+    clear: both;
+    padding: 20px 0 20px;
+}
+
+#start #colspan-bottom
+{
+    background: #0d0d0c;
+}
+
+#main #colspan-bottom
+{
+    background: #fff;
+}
+
+#footer
+{
+    background: #1a1a18;
+}
+
+#sprungmarke
+{
+    width: 980px;
+    margin: 0 auto;
+    padding: 25px 0 0;
+}
+
+#footer div.wrapper
+{
+    border-top: 2px solid #393938;
+    padding: 45px 0 80px 0;
+}
+
+#footer ul
+{
+    list-style-image: none;
+}
+
+#themes,
+#infopoint,
+#socials,
+#information
+{
+    float: left;
+}
+
+#themes ul,
+#infopoint ul,
+#socials ul,
+#information ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#themes ul li,
+#infopoint ul li,
+#socials ul li,
+#information ul li
+{
+    margin: 0 0 8px 0;
+}
+
+#themes ul li a,
+#infopoint ul li a,
+#socials ul li a,
+#information ul li a
+{
+    color: #808083;
+    text-decoration: none;
+}
+
+#themes ul li a:hover,
+#themes ul li.active a,
+#themes ul li.active,
+#infopoint ul li a:hover,
+#infopoint ul li.active a,
+#socials ul li a:hover,
+#socials ul li.active a,
+#information ul li a:hover
+{
+    text-decoration: none;
+    color: #d2d2d2;
+}
+
+#infopoint
+{
+    margin: 0 25px 0 65px;
+}
+
+#socials
+{
+    border-left: 1px solid #393938;
+    border-right: 1px solid #393938;
+    padding: 0 25px;
+    width: 260px;
+    margin: 0 25px 0 0;
+    min-height: 195px;
+}
+
+#socials h2.title,
+#information h2.title
+{
+    color: #d2d2d2;
+    font-size: 0.9em;
+}
+
+#socials div.image
+{
+    float: left;
+    margin: 0 12px 0 0;
+}
+
+div.jublilaeum
+{
+    margin: 40px 0 0 0;
+    padding: 0 0 0 80px;
+    background: url("../images/stw_jubilaeum_logo-fuss.png") no-repeat;
+}
+
+#information ul
+{
+    margin: 0 0 30px 0;
+}
+
+#information span
+{
+    font-size: 0.9em;
+    float: left;
+    clear: both;
+    line-height: 1.5em;
+}
+
+#karte
+{
+    float: right;
+}
+
+
+
+div.csc-sitemap ul li
+{
+    margin: 0 0 20px;
+}
+
+div.csc-sitemap ul li a
+{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+div.csc-sitemap ul li ul li
+{
+    margin: 0;
+}
+
+div.csc-sitemap ul li ul li a
+{
+    font-size: 1.0em;
+    color: #808083;
+}
+
+div.csc-sitemap ul li a:hover
+{
+    text-decoration: underline;
+}
+
+/*]]>*/

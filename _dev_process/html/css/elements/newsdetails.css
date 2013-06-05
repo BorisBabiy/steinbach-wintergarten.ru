@@ -1,0 +1,56 @@
+/*
+ *  $Revision: 1749 $
+ *  $Author: patrick@die-interaktiven.de $
+ *  $LastChangedDate: 2011-03-11 11:21:07 +0100 (Fr, 11. Mrz 2011) $
+ *  $HeadURL: https://interaktiv.jira.com/svn/ITFACTORY/trunk/fileadmin/sites/extranet.cadison.com/website/styles/elements/newsdetails.css $
+ */
+
+
+/*******************  Details *****************************/
+
+div.element.newsdetails
+{
+    display: block;
+}
+
+div.element.newsdetails div.image
+{
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+div.element.newsdetails div.content span.date
+{
+    color: #434343;
+    font-size: 1.2em;
+    padding: 0 8px;
+    border-left: 6px solid #E51837;
+}
+
+div.element.newsdetails div.content h2.title,
+div.element.newsdetails div.content h2
+{
+    color: #E51837;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 15px 0 0 0;
+}
+
+div.element.newsdetails div.content h2
+{
+    color: #898989;
+    margin: 0;
+}
+
+div.element.newsdetails div.content div.text
+{
+    margin: 0 0 20px 0;
+    line-height: 1.6em;
+}
+
+div.element.newsdetails div.link,
+div.element.newsdetails div.link a
+{
+    color: #E51837;
+}

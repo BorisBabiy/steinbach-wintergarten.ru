@@ -1,0 +1,13 @@
+/**
+ * Seitentitel
+ */
+ 
+h1.element.title
+{
+    display: block;
+    font-size: 1.6em;
+    margin: 0 0 20px 0;
+    color: #898989;
+    font-weight: normal;
+    padding: 0;
+}

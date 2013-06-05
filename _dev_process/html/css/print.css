@@ -1,0 +1,63 @@
+/*<![CDATA[*/
+/**
+ * Print Style
+ *
+ * Copyright (c) 2010    die.interaktiven GmbH u. Co. KG
+ *                       www.die-interaktiven.de
+ *
+ * Alle Rechte vorbehalten. Unberechtigte Kopie und Weiter-
+ * verwendung nicht gestattet.
+ *
+ */
+
+ 
+ /*
+ *  $Revision: $
+ *  $Author: $
+ *  $LastChangedDate: $
+ *  $HeadURL: $
+ */
+ 
+ 
+ 
+.noprint
+{
+    display: none;
+}
+
+.printonly
+{
+    display: block;
+    margin: 0 35px 0 35px;
+}
+
+body
+{
+    color: #000;
+    background: #fff;
+}
+
+p
+{
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    color: #000;
+}
+
+hr
+{
+    color: #000;
+    background-color: #000;
+}
+
+#page
+{
+    width: 100%;
+}
+
+
+/*]]>*/

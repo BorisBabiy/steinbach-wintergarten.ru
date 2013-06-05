@@ -1,0 +1,46 @@
+/*** Textabschnitt ***/
+
+div.element.paragraph
+{
+    display: block;
+    margin: 0 0 35px 0;
+}
+
+div.element.paragraph h2.title
+{
+    font-size: 1.8em;
+    font-weight: normal;
+}
+
+div.element.paragraph div.text
+{
+    line-height: 1.5em;
+    margin: 0 0 20px 0;
+}
+
+div.element.paragraph div.link
+{
+    background: url("../../img/link-mehr-erfahren.png") no-repeat left center transparent;
+    height: 17px;
+    padding: 0 0 0 25px;
+    float: left;
+}
+
+div.element.paragraph div.link a
+{
+    color: #bfbfbf;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+div.element.paragraph div.link a:hover
+{
+    text-decoration: underline;
+}
+
+#subnav div.element.paragraph h2.title,
+#subnav div.element.paragraph div.text,
+#subnav div.element.paragraph div.link a
+{
+    color: #898989;
+}

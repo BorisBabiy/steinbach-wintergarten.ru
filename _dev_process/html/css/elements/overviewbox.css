@@ -1,0 +1,53 @@
+/*** Übersichtsbox ***/
+
+div.element.overviewbox
+{
+    display: block;
+    position: relative;
+    margin: 0 0 25px 0;
+}
+
+div.element.overviewbox div.content
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    color: #fff;
+/*  background: url("../../images/uebersichtsbox-content.png") repeat-x left bottom transparent;*/
+    background: #000;
+    opacity: 0.72;
+    filter: alpha(opacity=72);
+}
+
+div.element.overviewbox div.content h2.title
+{
+    padding: 12px 12px 5px;
+}
+
+div.element.overviewbox div.content div.text
+{
+    padding: 0 12px;
+}
+
+div.element.overviewbox div.link
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+div.element.overviewbox a.overlay
+{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    visibility: visible;
+}

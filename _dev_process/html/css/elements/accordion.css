@@ -1,0 +1,131 @@
+/*** Accordion ***/
+
+div.element.accordion
+{
+    margin: 0 0 60px;
+    display: block;
+}
+
+div.element.accordion div.dt-accordion
+{
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+div.element.accordion div.head.ui-state-default
+{
+    border-bottom: 1px solid #DADADA;
+}
+
+div.element.accordion div.ui-accordion-content-active
+{
+    padding: 0 0 25px;
+    border-bottom: 1px solid #DADADA;
+    margin: 10px 0 0;
+}
+
+div.element.accordion div.ui-accordion-content-active div.left,
+div.element.accordion div.ui-accordion-content-active div.right
+{
+    width: 49%;
+}
+
+div.element.accordion div.ui-state-default.ui-state-active,
+div.element.accordion div.ui-widget-content div.ui-state-default.ui-state-active
+{
+    border-bottom: none;
+}
+
+div.element.accordion div.ui-accordion div.ui-accordion-header
+{
+    cursor: pointer;
+    margin-top: 1px;
+    height: 55px;
+    position: relative;
+    outline: none;
+}
+
+div.element.accordion div.ui-accordion div.ui-accordion-header:hover h2.title a
+{
+    color: #E51837;
+}
+
+div.element.accordion div.ui-corner-all
+{
+    
+}
+
+div.element.accordion div.ui-corner-top
+{
+    
+}
+
+div.element.accordion div.ui-corner-bottom
+{
+    
+}
+
+div.element.accordion div.head h2.title
+{
+    margin: 0 0 0.3em;
+    float: left;
+}
+
+div.element.accordion div.head h2.title a
+{
+    color: #808080;
+    display: block;
+    font-size: 1.2em;
+    font-weight: normal;
+    padding: 15px 0 0;
+    text-decoration: none;
+    width: 100%;
+}
+
+div.element.accordion div.ui-state-active h2.title a
+{
+    color: #E51837;
+}
+
+div.element.accordion div.head div.description
+{
+    padding: 0 0 0 30px;
+    margin: 0 0 10px 0;
+}
+
+div.element.accordion div.ui-accordion div.ui-accordion-header span.ui-icon
+{
+    
+}
+
+div.element.accordion div.item div.head span.ui-icon
+{
+    background: url("../../images/accordion-arrow.jpg") no-repeat scroll right top transparent;
+    display: block;
+    float: right;
+    height: 30px;
+    margin: 13px 0 0;
+    padding: 0 5px;
+    width: 16px;
+}
+
+div.element.accordion div.ui-accordion div.ui-accordion-header:hover span.ui-icon
+{
+    background: url("../../images/accordion-arrow.jpg") no-repeat scroll right -30px transparent;
+}
+
+div.element.accordion div.item div.head span.ui-icon.ui-icon-triangle-1-s
+{
+    background: url("../../images/accordion-arrow_active.jpg") no-repeat scroll right center transparent;
+    height: 16px;
+    width: 30px;
+    margin: 19px 0 0;
+}
+
+div.element.accordion div.content div.colgroup,
+div.element.accordion div.content div.paragraph
+{
+    margin: 0;
+}

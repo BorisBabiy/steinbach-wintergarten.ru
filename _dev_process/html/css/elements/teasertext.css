@@ -1,0 +1,28 @@
+/*** Teasertext ***/
+
+div.element.teasertext
+{
+    display: block;
+}
+
+div.element.teasertext
+{
+    margin: 0 0 25px 0;
+    width: 100%;
+}
+
+div.element.teasertext h2.title
+{
+    font-size: 1.6em;
+    line-height: 1.6em;
+    color: #e51837;
+    font-weight: normal;
+    padding: 0;
+}
+
+div.element.teasertext div.text p
+{
+    font-size: 1.6em;
+    line-height: 1.6em;
+    color: #898989;
+}

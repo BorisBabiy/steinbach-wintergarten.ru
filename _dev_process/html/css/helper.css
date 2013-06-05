@@ -1,0 +1,398 @@
+/*<![CDATA[*/
+/**
+ * Hilfsformatierungen
+ *
+ * Copyright (c) 2010    die.interaktiven GmbH u. Co. KG
+ *                       www.die-interaktiven.de
+ *
+ * Alle Rechte vorbehalten. Unberechtigte Kopie und Weiter-
+ * verwendung nicht gestattet.
+ *
+ */
+
+ 
+/*
+ *  $Revision: $
+ *  $Author: $
+ *  $LastChangedDate: $
+ *  $HeadURL: $
+ */
+ 
+ 
+
+/**
+ * HTML-Tags
+ */
+ 
+h1,
+h2,
+h3,
+h4,
+h5
+{
+    margin: 0;
+    padding: 0 0 0.5em 0;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
+}
+
+p
+{
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    text-decoration: underline;
+    outline: none;
+    color: #E51837;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+ul
+{
+/*  list-style: square;*/
+    padding: 0;
+    margin: 1em 0 1em 2em;
+    text-align: left;
+    list-style-image: url("../img/bulletpoint.png");
+}
+
+ul ul
+{
+    list-style: disc;
+    margin-top: 0;
+}
+
+ul ul ul
+{
+    list-style: circle;
+    margin-top: 0;
+}
+
+ol li
+{
+    margin: 1em 0 0 0;
+    padding: 0;
+}
+
+hr
+{
+    display: block;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+strong
+{
+    font-weight: bold;
+}
+
+img
+{
+    border: 0;
+}
+
+fieldset
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+legend
+{
+    display: none;
+}
+
+form
+{
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select
+{
+    font-size: 100%;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+input[type=image]
+{
+    background: transparent;
+}
+
+table
+{
+    margin: 15px 0 15px 0;
+}
+
+table td
+{
+    vertical-align: top;
+}
+
+
+/**
+ * allgemeine Helper
+ */
+
+.invisible
+{
+    position: absolute;
+    top: -3000px;
+    left: -3000px;
+    width: 1px;
+    height: 1px;
+}
+
+.clear
+{
+    clear: both;
+    float: none;
+    line-height: 0;
+    font-size: 0;
+    display: block;
+    height: 0;
+}
+
+html>body .clear
+{
+    font-size: 0.1em;
+}
+
+* + html body .clear
+{
+    height: auto;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+.align-center
+{
+    text-align: center;
+}
+
+.align-left
+{
+    text-align: left;
+}
+
+.align-right
+{
+    text-align: right;
+}
+
+.printonly
+{
+    display: none;
+}
+
+/**
+ * allgemeine Links
+ */
+ 
+a.dia:hover
+{
+    color: #7fc41c;
+}
+
+/**
+ * Icon Check 13x13
+ */
+
+img.icon
+{
+    margin: 0 4px -4px 4px;
+}
+ 
+img.icon.check
+{
+    margin: 5px 0 -3px 0;
+}
+
+
+/**
+ * Formular
+ */
+
+form.form
+{
+    margin: 0;
+    padding: 0;
+}
+
+form.form div.fieldset
+{
+    margin: 0;
+    padding: 0;
+}
+
+form.form div.fieldset h2.title
+{
+    line-height: 1.5em;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+form.form div.fieldset div.text
+{
+    line-height: 1.5em;
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+
+form.form span.label
+{
+    display: block;
+    float: left;
+    width: 132px;
+    line-height: 1.5em;
+    font-weight: normal;
+}
+
+div.button {
+    background: url("../images/powermail-btn-start.png") no-repeat scroll left center transparent;
+    display: block;
+    float: right;
+    margin: 0 10px 0 0;
+    padding: 2px 0;
+}
+input.input.submit {
+    background: url("../images/powermail-btn-end.png") no-repeat scroll right center transparent;
+    border: medium none;
+    clear: both;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 0.8em;
+    margin: 0 -5px 0 0;
+    padding: 10px;
+}
+input.input.submit:hover {
+    background: url("../images/powermail-btn-end.png") no-repeat scroll right center transparent;
+    border: medium none;
+    clear: both;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 10px;
+}
+
+div.button.back,
+div.button.next
+{
+    float: left;
+}
+
+
+input.input.submit,
+input.input.confirmation_back,
+input.input.confirmation_submit
+{
+    padding: 10px 10px;
+    margin: 0 -5px 0 0;
+    background: url("../images/powermail-btn-end.png") center right no-repeat;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    clear: both;
+    font-size: 0.8em;
+}
+
+* + html body input.input.confirmation_submit
+{
+    padding: 10px 0px;
+}
+
+input.input.confirmation_back{
+    float: left;
+}
+
+input.input.confirmation_submit{
+    float: left;
+}
+
+form.form input.input.text,
+form.form input.input.zip,
+form.form input.input.city,
+form.form input.input.password,
+form.form select.select,
+form.form textarea.textarea
+{
+    display: block;
+    margin: 0 0 10px 0;
+    padding: 5px;
+}
+
+form.form input.input.zip
+{
+    width: 50px;
+    margin: 0 5px 0 0;
+}
+
+form.form input.input.city
+{
+    width: 210px;
+}
+
+form.form textarea.textarea
+{
+    height: 100px;
+    resize: none;
+}
+
+form.form input.input.checkbox,
+form.form input.input.radio
+{
+    float: left;
+    margin: 3px 5px 15px 0;
+}
+
+form.form div.group
+{
+    margin: 0 0 15px 0;
+}
+
+form.form div.group.checkbox span.label,
+form.form div.group.radio span.label
+{
+    width: auto;
+    margin: 0 0 10px 0;
+}
+
+form.form div.required
+{
+    float: left;
+    width: auto;
+    margin: 0;
+}
+
+input.input.submit
+{
+    float: left;
+}
+
+form.form br
+{
+    float: none;
+    clear: both;
+}
+
+/*]]>*/

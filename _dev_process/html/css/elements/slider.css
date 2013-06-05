@@ -1,0 +1,195 @@
+/**
+ * Slider
+ */
+
+div.element.slider
+{
+    display: block;
+/*  position: relative;*/
+    margin: 0 0 30px 0;
+    height: 345px;
+}
+
+div.element.slider div.slider-container
+{
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+/*    top: 0;*/
+/*    max-width: 1330px;*/
+}
+
+div.element.slider ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 285px;
+}
+
+div.element.slider ul li
+{
+    float: left;
+    margin: 0 15px 0 0;
+    padding: 0;
+}
+
+div.element.slider div.jcarousel-prev
+{
+    background: url("../../images/slider-prev.png") no-repeat left top transparent;
+    height: 41px;
+    width: 26px;
+    float: left;
+    margin: 17px 25px 0 0;
+    cursor: pointer;
+}
+
+div.element.slider div.jcarousel-prev:hover
+{
+    background: url("../../images/slider-prev.png") no-repeat left -41px transparent;
+}
+
+div.element.slider div.jcarousel-next
+{
+    background: url("../../images/slider-next.png") no-repeat left top transparent;
+    height: 41px;
+    width: 26px;
+    float: left;
+    margin: 17px 0 0 0;
+    cursor: pointer;
+}
+
+div.element.slider div.jcarousel-next:hover
+{
+    background: url("../../images/slider-next.png") no-repeat left -41px transparent;
+}
+
+
+
+/**
+ *  Startslider
+ */
+
+div.element.startslider
+{
+    display: block;
+/*  overflow: hidden;*/
+    position: relative;
+    left: 0;
+}
+
+div.jcarousel-clip-horizontal
+{
+/*    width: 100%;*/
+    overflow: hidden;
+}
+
+div.element.startslider ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+div.element.startslider ul li
+{
+    float: left;
+/*    overflow: hidden;*/
+    padding: 0;
+/*    position: relative;*/
+/*    width: 1680px;*/
+}
+
+div.element.startslider ul li div.content
+{
+    background: url("../../images/startslider-content-bg.png") repeat center center transparent;
+    margin: -61px 0 0 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 98px;
+}
+
+div.element.startslider ul li div.content div.wrapper
+{
+    padding: 15px 0 0;
+}
+
+div.element.startslider ul li div.content div.text
+{
+    margin: 0 0 5px 0;
+}
+
+div.element.startslider ul li div.content div.link
+{
+    float: left;
+    position: relative;
+    z-index: 20;
+}
+
+div.element.startslider ul li div.content div.link a
+{
+    text-decoration: none;
+}
+
+div.element.startslider ul li div.content div.link a:hover
+{
+    text-decoration: underline;
+}
+
+div.element.startslider div.buttons
+{
+    /*margin: -80px 0 0;
+    position: relative;*/
+   position: absolute;
+   bottom: -17px;
+   width: 100%;
+   left: 0;
+}
+
+div.element.startslider div.jcarousel-prev
+{
+    background: url("../../images/startslider-prev.png") no-repeat left top transparent;
+    height: 78px;
+    width: 124px;
+    float: right;
+    cursor: pointer;
+}
+
+div.element.startslider div.jcarousel-prev:hover
+{
+    background: url("../../images/startslider-prev.png") no-repeat left -78px transparent;
+}
+
+div.element.startslider div.jcarousel-next
+{
+    background: url("../../images/startslider-next.png") no-repeat left top transparent;
+    height: 78px;
+    width: 124px;
+    float: right;
+    cursor: pointer;
+}
+
+div.element.startslider div.jcarousel-next:hover
+{
+    background: url("../../images/startslider-next.png") no-repeat left -78px transparent;
+}
+
+div.anniversary .image
+{
+    z-index: 999;
+    width: 70px;
+    height: 70px;
+    float: right;
+    background: url("../../images/stw_jubilaeum_logo-header.png") no-repeat;
+    margin: 15px 0 0 0;
+}
+
+div.anniversary
+{
+    position: absolute;
+    right: 0px;
+    top: 0px; 
+    width: 100%;
+}

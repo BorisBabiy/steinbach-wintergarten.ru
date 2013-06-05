@@ -1,0 +1,127 @@
+/*
+ *  $Revision: 1807 $
+ *  $Author: patrick@die-interaktiven.de $
+ *  $LastChangedDate: 2011-03-11 15:22:47 +0100 (Fr, 11 Mrz 2011) $
+ *  $HeadURL: https://interaktiv.jira.com/svn/ITFACTORY/trunk/fileadmin/sites/extranet.cadison.com/website/styles/elements/fce.css $
+ */
+
+/*
+ * FCE Content-elements
+ */
+
+
+div.colgroup.fce100
+{
+    width: 100%;
+}
+
+div.colgroup.fce100 div.container
+{
+    width: 100%;
+    float: left;
+}
+
+
+div.navigation.content div.col-left
+{
+    width: 240px;
+    margin: 0 25px 0 0;
+    float: left;
+}
+
+div.navigation.content div.col-right
+{
+    width: 675px;
+    float: right;
+}
+
+
+
+
+
+div.colgroup.fce50x50
+{
+    width: 100%;
+}
+
+div.colgroup.fce50x50 div.col-left
+{
+    width: 48%;
+    float: left;
+    
+}
+
+div.colgroup.fce50x50 div.col-right
+{
+    float: right;
+    width: 48%;
+}
+
+#start div.colgroup.fce50x50 div.col-left
+{
+    width: 484px;
+    float: left;
+    
+}
+
+#start div.colgroup.fce50x50 div.col-right
+{
+    float: right;
+    width: 484px;
+}
+
+#start div.colgroup.fce50x50 div.colgroup.fce50x50 div.col-left,
+#start div.colgroup.fce50x50 div.colgroup.fce50x50 div.col-right
+{
+    width: 236px;
+}
+
+
+
+
+
+div.colgroup.fce70x30
+{
+    width: 100%;
+}
+
+div.colgroup.fce70x30 div.col-left
+{
+    width: 64%;
+    float: left;
+    
+}
+
+div.colgroup.fce70x30 div.col-right
+{
+    float: right;
+    width: 30%;
+}
+
+
+
+
+
+div.colgroup.fce33x33x33
+{
+    width: 100%;
+}
+
+div.colgroup.fce33x33x33 div.col-left
+{
+    width: 310px;
+    float: left;
+}
+
+div.colgroup.fce33x33x33 div.col-center
+{
+    width: 310px;
+    float: left;
+    margin: 0 0 0 25px;
+}
+
+div.colgroup.fce33x33x33 div.col-right
+{
+    float: right;
+    width: 310px;
+}

@@ -1,0 +1,20 @@
+div.element.powermail
+{
+    display: block;
+}
+
+div.element.powermail form.form input.input.text,
+div.element.powermail form.form input.input.zip,
+div.element.powermail form.form input.input.city,
+div.element.powermail form.form input.input.password,
+div.element.powermail form.form select.select,
+div.element.powermail form.form textarea.textarea
+{
+    width: 323px;
+    color: #898989;
+}
+
+div.element.powermail form.form select.select
+{
+    width: 335px;
+}
